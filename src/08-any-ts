@@ -1,13 +1,13 @@
 (() => {
-  // let myDinamicVar: any
+  let myDinamicVar: any
   myDinamicVar = null
 
   myDinamicVar = "hi"
-  // const rta = (myDinamicVar as string).toLocaleLowerCase()
+  const rta = (myDinamicVar as string).toLocaleLowerCase()
   console.log(rta);
 
   myDinamicVar = 123
-  // const rta2 = (<number> myDinamicVar as string).toFixed()
+  const rta2 = (<number> myDinamicVar as number).toFixed()
   console.log(rta2);
 
 })()
